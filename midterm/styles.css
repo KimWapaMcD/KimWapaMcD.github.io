@@ -1,3 +1,27 @@
 body,html {
     background-color: #aad4cf;
+    margin:5%;
+}
+
+.container {
+    position:relative;
+    text-align:center;
+}
+
+#wrap {
+float:left;
+margin:10px
+}
+
+#head {
+    color: white; 
+    font-size:300%;
+    position: absolute;
+    left:43%;
+    bottom:43%;
+    font-family: Arial;
+}
+
+#box {
+    border:solid 1px black;
 }

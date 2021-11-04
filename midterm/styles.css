@@ -11,8 +11,9 @@ body,html {
 
 #wrap {
 float:left;
-margin: 5px;
-max-width: 5%;
+margin: 0 auto;
+max-width: 100%;
+height: 332px;
 }
 
 #head {
@@ -26,4 +27,9 @@ max-width: 5%;
 
 #box {
     border:solid 1px black;
+    margin:10%
+}
+
+.label {
+    clear: left;
 }

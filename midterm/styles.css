@@ -22,7 +22,8 @@ body {
 float:left;
 margin: 0 auto;
 max-width: 100%;
-max-height:150px ;
+max-height:150px;
+padding-right: 20px;
 }
 
 #head {
@@ -66,7 +67,7 @@ max-height:150px ;
 ul#horizontal-list {
     list-style: none;
     min-width: 696px;
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 .table{
@@ -79,11 +80,16 @@ ul#horizontal-list li{
     padding: 0 110px;
     font-size: 20px;
     font-family: sans-serif;
-    top: 20%
+    
+}
+.facts{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.name {
+    border-style: solid;
+    border-left: slategray, solid, 20px;
+
 }
 
 
-nav{
-    justify-content:space-between;
-    flex-direction: row;
-}

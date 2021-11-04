@@ -1,6 +1,7 @@
 body,html {
     background-color: #aad4cf;
-    margin:5%;
+    margin:0%;
+    
 }
 
 .container {
@@ -10,7 +11,8 @@ body,html {
 
 #wrap {
 float:left;
-margin:10px
+margin: 5px;
+max-width: 5%;
 }
 
 #head {

@@ -82,7 +82,7 @@ ul#horizontal-list {
 
 ul#horizontal-list li{
     display: inline;
-    padding: 0 110px;
+    padding: 0 100px;
     font-size: 20px;
     font-family: sans-serif;
     list-style: none;

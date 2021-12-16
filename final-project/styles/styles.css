@@ -51,41 +51,166 @@ table {
                     Defaults
 **************************************************/
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 html{
-    font-size:16px;
+    font-size:1em;
     font-family: 'Open Sans', sans-serif;
 }
 
-body{
-	max-width:1200px;
-	margin: 0 auto 10px;
+@media screen and (max-width: 760px) {
+	body{
+		max-width:  1200px;
+		margin: 0 auto 10px;
+		align-items: center;
+	}
+}
+
+h1{
+	font-size: 2.19em;
+}
+
+h2{
+	font-size: 1.86em;
+}
+
+h3{
+	font-size: 1.3em;
 }
 
 /*********************************************
 			Nav
 *********************************************/
+@media screen and (max-width: 760px) {
+	.navbar {
+		border:1em solid #222;
+		background-color: #222;
+		width: 100%;
+		height:100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-ar;
+	}
+	.yellowmob {
+		border: 2em solid #c78c06;
+		background-color: #c78c06;
+		width: 95%;
+		height: 50%;
+	}
+
+	ul{
+		justify-content: space-between;
+	}
+
+}
 .navbar {
 	background-color: #222;
 	justify-content: center;
-	display: flex;
-	justify-content: space-around;
 	
 }
 
-ul {
-	display: flex;
-	text-align: center;
-	justify-content: space-around;
-	list-style: none;
-}
 
 /*******************************************
 			welcome
 *******************************************/
-
-.imgWelcome{
-	width:auto;
+@media screen and (max-width:760px) {
+.imgWelcome img{
+	width: 100%;
+	height:100%;
 }
 
+.transparent{
+	border:2em solid black;
+	background-color:black;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+}
+
+
+.yellowabout{
+	background-color: #ffe6ac;
+	border:2em solid #ffe6ac;
+	width:95%;
+	height: 95%;
+	justify-content: center;
+}
+
+.yellowabout img{
+	width: 100%;
+}
+}
+
+
+/*******************************************
+			Article
+*******************************************/
+@media screen and (max-width:760px) {
+.yellowdigi{
+	background-color: #ffe6ac;
+	border:2em solid #ffe6ac;
+	width:95%;
+	height: 95%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.yellowmark{
+	background-color: #ffe6ac;
+	border:2em solid #ffe6ac;
+	width:95%;
+	height: 95%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.yellowvid{
+	background-color: #ffe6ac;
+	border:2em solid #ffe6ac;
+	width:95%;
+	height: 95%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.yellowweb{
+	background-color: #ffe6ac;
+	border:2em solid #ffe6ac;
+	width:95%;
+	height: 95%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.yellowprint{
+	background-color: #ffe6ac;
+	border:2em solid #ffe6ac;
+	width:95%;
+	height: 95%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.bobbio{
+	background-color: #ffe6ac;
+	border:2em solid #ffe6ac;
+	width:95%;
+	height: 95%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.johnbio{
+	background-color: #ffe6ac;
+	border:2em solid #ffe6ac;
+	width:95%;
+	height: 95%;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+
+.vision img {
+	width: 100%;
+}
+}
